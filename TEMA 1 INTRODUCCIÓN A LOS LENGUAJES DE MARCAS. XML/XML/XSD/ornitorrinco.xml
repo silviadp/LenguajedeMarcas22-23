@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8?"?>
+<student dni="1234567A"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ornitorrinca.xsd">
+    <name>JUAN</name>
+    <address>
+        <street>jfgiopjh</street>
+        <number>5</number>
+        <city>sevilla</city>
+        <province>utrera</province>
+    </address>
+    <phone>723648734</phone>
+    <phone>847239847</phone>
+</student>

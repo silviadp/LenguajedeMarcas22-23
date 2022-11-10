@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro>
+    <libro librocatalogo="">
+          <titulo></titulo>
+          <seccion></seccion>
+          <subseccion></subseccion>
+          <contenido>
+              <capitulo>
+               <tema capitulomateria="XML" > </tema>
+               <tema></tema>
+               
+               <copyright></copyright>
+          </capitulo>
+          </contenido>
+    </libro>  

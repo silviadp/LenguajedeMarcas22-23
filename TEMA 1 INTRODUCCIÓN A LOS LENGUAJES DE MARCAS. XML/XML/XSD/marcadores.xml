@@ -1,0 +1,20 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<marcadores>
+   xmlns:xsi="http://www.w3.org/2001/XMLShema-instance"
+   xsi:noNamespacesSchemaLocation="marcadores.xsd">
+   <pagina>
+      <nombre>IESciudadjardin</nombre>
+      <descripcion>Instituto</descripcion>
+      <url>http://iesciudadjardin.es</url>
+    </pagina>
+   <pagina>
+      <nombre>wikipedia</nombre>
+      <descripcion>enciclopedia</descripcion>
+      <url>www.wikipwdia.es</url>
+    </pagina>
+    <pagina>
+      <nombre>W3C</nombre>
+      <descripcion>WORLD WIDE WEB</descripcion>
+      <url>www.w3.com</url>
+    </pagina>
+</marcadores>

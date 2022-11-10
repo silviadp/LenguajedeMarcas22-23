@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder>
+    <oderperson></oderperson>
+    <shiptop>
+        <name></name>
+        <address></address>
+        <city></city>
+        <country></country>
+    </shiptop>
+    <item>
+        <tittle></tittle>
+        <note></note>
+        <quantity></quantity>
+        <price></price>
+    </item>
+    <orderid></orderid>
+</shiporder>
