@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>documentr</title>
+</head>
+<body>
+    <fieldset>
+    <form>
+        <h2 style="text-align:center"><b>HOJA DE INSCRIPCIÓN 
+            <br>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</b></h2>
+         <br>
+        <br>
+        <fieldset style="background-color:darkgray;"">
+            <legend style="border: 1px solid black; background-color: white;">Datos Personales</legend>
+            <table>
+                <thead>
+                    <td>Nombre:</td>
+                    <td>Apellidos:</td>
+                    <td>DNI:</td>
+                </thead>
+                <thead>
+                    <td><input></td>
+                    <td><input></td>
+                    <td><input></td>
+                </thead>
+                <thead>
+                    <td>Localidad Nacimiento:</td>
+                    <td>Provincia:</td>
+                    <td>Fecha Nacimiento:</td>
+                </thead>
+                <thead>
+                    <td><input></td>
+                    <td><select name="opciones" id="s_opciones">
+                        <option  select value="-selecciona-">-selecciona-</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Málaga">Málaga</option>
+                        <option value="Cádiz">Cádiz</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Huelva">Huelva</option>
+                        <option value="Jaén">Jaén</option>
+                        <option value="Almeria">Almeria</option>
+                        <option value="Córdoba">Córdoba</option>
+
+                    </select></td>
+                    <td><input type="date"></input></td>
+                </thead>
+                <thead>
+                    <td colspan="2">Dirección:</td>
+                    <td>Código Postal:</td>
+                </thead>
+                <thead>
+                    <td colspan="2"><input size="35"></td>
+                    <td><input></td>
+                </thead>
+            </table>
+              
+        </fieldset>
+    </form>
+    <form>
+        <fieldset style="background-color: rgb(212, 115, 79);">
+            <legend style="border: 1px solid black; background-color: white;">Forma de Acceso</legend>
+            <input type="radio" name="opcion1" id="opcion"><label for="opcion"></label>Direct</input>
+            <br>
+            <ol>
+            <input type="radio" name="opcion2" id="opcion"><label for="opcion"></label>Bachillerato LOGSE Modalidad<input>
+            <br>
+            <input type="radio" name="opcion2" id="opcion"><label for="opcion"></label>Bachillerato experimental
+            <br>
+            <input type="radio" name="opcion2" id="opcion"><label for="opcion"></label>COU.Opcion<input>
+            <br>
+            <input type="radio" name="opcion2" id="opcion"><label for="opcion"></label>FP2
+            <br>
+            <input type="radio" name="opcion2" id="opcion"><label for="opcion"></label>Otros (especifique)<input>
+            <br>
+            </ol>
+            <input type="radio" name="opcion1" id="opcion"><label for="opcion"></label>Prueba Libre
+        </fieldset>
+    </form>
+    <form>
+        <fieldset style="background-color: rgb(209, 47, 42);">
+            <legend style="border:1px solid black;background-color: white;">Documentos Adjuntados</legend>
+            <table>
+                <thead>
+                    <td><input type="checkbox">Fotocopia DNI</td>
+                    <td><input type="checkbox">Certificado Académico</td>
+                </thead>
+                <thead>
+                    <td><input type="checkbox">Otros documentos (especifique)</td>
+                    <td><input></td>
+                </thead>
+            </table>
+           
+        </fieldset>
+
+    </form>
+    <br>
+    <input type="submit" value="Enviar Solicitud" >
+    </fieldset>
+    
+</body>

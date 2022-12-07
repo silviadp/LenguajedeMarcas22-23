@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-model href="ej31.xsd"?>
 <relacion>
+
    <persona sexo="hombre" carnet="A1111">
      <nombre>Luis Martin</nombre>
      <email>luis@hotmail.com</email>
