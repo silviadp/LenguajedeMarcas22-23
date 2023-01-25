@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    margin: 0px auto;
+    width: 50%;
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.texto {
+    color: white;
+    background:red;
+}
+img {
+width: 50px;
+height: 50px;
+}
+[colspan="3"],[colspan="2"]{
+    background-color: blue;
+}
+#horas{
+padding-top: 1cm;
+padding-bottom: 1cm;
+background-color: yellow;
+}
+#colores{
+    color: red;
+}
+#gb{
+    font-size: 2em;
+    background-color: gray;
+    text-align: center;
+}

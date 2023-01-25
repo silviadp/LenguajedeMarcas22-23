@@ -1,0 +1,46 @@
+p{
+    color: blue;
+    font-size: large;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+
+h2{
+    font-weight: bolder;
+    color: purple;
+}
+
+img{
+    border:2px dashed red;
+   margin-top: 10px;
+   margin-top: 12px;
+    background-color: red;
+}
+
+table,tr,td{
+    border: 2px solid green;
+    border-collapse:collapse;
+}
+
+body>ul>li{
+    color: red;
+
+}
+li>ul{
+    color: blue;
+}
+
+p+img{
+    color: brown;
+}
+br+img{
+    border-color: aqua;
+    background-color: rgb(149, 204, 60);
+
+}
+img~img{
+    margin:50px;
+}

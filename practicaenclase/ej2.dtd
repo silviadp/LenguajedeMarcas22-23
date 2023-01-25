@@ -1,0 +1,7 @@
+<!ELEMENT beatles (beatle+)>
+<!ELEMENT beatle (name)>
+<!ATTLIST beatle link CDATA #REQUIRED>
+<!ATTLIST beatle real NMTOKEN #IMPLIED>
+<!ELEMENT name (firstname,lastname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
